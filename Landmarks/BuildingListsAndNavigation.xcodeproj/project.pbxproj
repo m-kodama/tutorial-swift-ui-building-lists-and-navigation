@@ -64,7 +64,7 @@
 		C738A980C7389C4000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C762EB90C762EA9000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		F39B25CB2341D7E900209166 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
-		F39B25CD2341DBBE00209166 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkList.swift; path = "Landmarks/Landmark Views/LandmarkList.swift"; sourceTree = SOURCE_ROOT; };
+		F39B25CD2341DBBE00209166 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkList.swift; path = Landmarks/LandmarkList.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,10 @@
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
+				F39B25CD2341DBBE00209166 /* LandmarkList.swift */,
+				F39B25CB2341D7E900209166 /* LandmarkRow.swift */,
 				B7394869229F194000C47603 /* LandmarkDetail.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
-				F39B25CA2341D7CC00209166 /* Landmark Views */,
 				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
 				B7394870229F194200C47603 /* LaunchScreen.storyboard */,
@@ -176,15 +177,6 @@
 				C762EB90C762EA9000000001 /* SampleCode.xcconfig */,
 			);
 			name = Configuration;
-			sourceTree = "<group>";
-		};
-		F39B25CA2341D7CC00209166 /* Landmark Views */ = {
-			isa = PBXGroup;
-			children = (
-				F39B25CD2341DBBE00209166 /* LandmarkList.swift */,
-				F39B25CB2341D7E900209166 /* LandmarkRow.swift */,
-			);
-			path = "Landmark Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
